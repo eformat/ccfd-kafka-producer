@@ -13,4 +13,4 @@ while True:
     payload = json.dumps(data)
     print(f"Sending: {payload}")
     producer.send(topic, payload.encode('utf-8'))
-    time.sleep(1):
+    time.sleep(1)
