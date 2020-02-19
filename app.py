@@ -79,4 +79,3 @@ while True:
             sendMessage(json.dumps(class_zero[zero_pointer]).encode('utf-8'), KAFKA_TOPIC, producer)
 
     time.sleep(random.randint(2,6))
-    time.sleep(random.randint(2,6))
